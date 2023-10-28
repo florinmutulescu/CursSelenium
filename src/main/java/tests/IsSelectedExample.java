@@ -29,12 +29,12 @@ public class IsSelectedExample extends BaseTest {
 			menu.navigateTo(menu.loginLink);
 			
 			LoginPage login = new LoginPage(driver);
-			SeleniumWrappers seleniumWrapper =  new SeleniumWrappers();
+			SeleniumWrappers seleniumWrapper =  new SeleniumWrappers(driver);
 			
 			System.out.println(seleniumWrapper.returnWebElement(login.rememberMeCheckBox));
 			seleniumWrapper.returnWebElement(login.rememberMeCheckBox).click();
 			System.out.println(seleniumWrapper.returnWebElement(login.rememberMeCheckBox));
-		
+		   
 			/*WebElement rememberMe = driver.findElement(login.rememberMeCheckBox);	
 			System.out.println(rememberMe.isSelected());	
 			rememberMe.click();
