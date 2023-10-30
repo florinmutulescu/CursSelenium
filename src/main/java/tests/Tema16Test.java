@@ -32,7 +32,7 @@ public class Tema16Test extends BaseTest{
 	@Test(priority =2)
 	public void validareMesaj() {
 		app.returnWebElement(app.login1.star).click();
-        app.returnWebElement(app.login1.mesaj).sendKeys("maria");
+        app.returnWebElement(app.login1.mesaj).sendKeys("maria1");
 		app.returnWebElement(app.login1.nume).sendKeys("gabi");
 		app.returnWebElement(app.login1.email).sendKeys("gabi@yahoo.com");
 		app.returnWebElement(app.login1.save).click();

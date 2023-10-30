@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest{
 		//verify sucess login
 		Thread.sleep(1000);//Bad practice
 		assertTrue(login.checkLoginMsgIsDisplayed(login.sucessLoginMsg));
-
+	
 
 	}
 

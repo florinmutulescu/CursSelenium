@@ -9,6 +9,7 @@ public class LoginPage {
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 	}
+	
 
 	//locatori sau webelemente
 	public By usernameField = By.id("log");
