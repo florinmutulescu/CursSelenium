@@ -7,6 +7,7 @@ import pages.LogarePagina;
 import pages.LoginPage;
 import pages.MeniuPagTema16;
 import pages.MenuPage;
+import pages.ShippingPage;
 import pages.ShopPage;
 
 public class BasePage extends SeleniumWrappers{
@@ -21,6 +22,6 @@ public class BasePage extends SeleniumWrappers{
     public MeniuPagTema16 menu1 = new MeniuPagTema16(driver);
     public ShopPage shop =  new ShopPage(driver);
     public ContactsPage contacts = new ContactsPage(driver);
-    
+    public ShippingPage shipping = new ShippingPage(driver);
     
 }
