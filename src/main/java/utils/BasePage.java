@@ -3,6 +3,7 @@ package utils;
 import org.openqa.selenium.WebDriver;
 
 import pages.ContactsPage;
+import pages.ElementePaginaCarte;
 import pages.EventsPage;
 import pages.GenericEventPage;
 import pages.LogarePagina;
@@ -10,6 +11,7 @@ import pages.LoginPage;
 import pages.MeniuPagTema16;
 import pages.MenuPage;
 import pages.ShippingPage;
+import pages.ShopCarte;
 import pages.ShopPage;
 
 public class BasePage extends SeleniumWrappers{
@@ -27,5 +29,6 @@ public class BasePage extends SeleniumWrappers{
     public ShippingPage shipping = new ShippingPage(driver);
     public EventsPage events =  new EventsPage(driver);
 	public GenericEventPage genericEvent =  new GenericEventPage(driver);
-    
+	public ElementePaginaCarte epc=  new ElementePaginaCarte(driver);
+	public ShopCarte shopCarte = new ShopCarte(driver);
 }
