@@ -17,13 +17,12 @@ public class Tema17Test extends BaseTest{
 	
 		//MenuPage menu =  new MenuPage(driver);
 		app.menu.navigateTo(app.menu.loginLink);
-	
+		
 		//LoginPage login = new LoginPage(driver);
 		app.login.loginInApp("TestUser", "12345@67890");
-	
-	
-		assertTrue(app.login.checkLoginMsgIsDisplayed(app.login.sucessLoginMsg));
-	
+	    assertTrue(app.login.checkLoginMsgIsDisplayed(app.login.sucessLoginMsg));
+	    
+		driver.get( "https://keybooks.ro/account/edit-address/shipping");
 
 	}
 	@Test(priority=2)

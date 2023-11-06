@@ -18,7 +18,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();//maximizes the browser
         driver.get("https://keybooks.ro");//navigates to the specified url
-        //driver.get( "https://keybooks.ro/account/edit-address/shipping");
+        
         app =  new BasePage(driver);
 	}
 	
