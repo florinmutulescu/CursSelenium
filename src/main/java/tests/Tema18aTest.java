@@ -16,13 +16,13 @@ public class Tema18aTest extends BaseTest{
 	}
 	@Test(priority =2)
 	public void verificareAfisareElementeCarte() {
-		app.epc.esteAfisatElementul(app.epc.imagine);
-		app.epc.esteAfisatElementul(app.epc.titlu);
-		app.epc.esteAfisatElementul(app.epc.pret);
-		app.epc.esteAfisatElementul(app.epc.comentariu);
-		app.epc.esteAfisatElementul(app.epc.cantitate);
-		app.epc.esteAfisatElementul(app.epc.buton);
-		app.epc.esteAfisatElementul(app.epc.categorie);
+		assertTrue(app.epc.esteAfisatElementul(app.epc.imagine));
+		assertTrue(app.epc.esteAfisatElementul(app.epc.titlu));
+	    assertTrue(app.epc.esteAfisatElementul(app.epc.pret));
+		assertTrue(app.epc.esteAfisatElementul(app.epc.comentariu));
+		assertTrue(app.epc.esteAfisatElementul(app.epc.cantitate));
+		assertTrue(app.epc.esteAfisatElementul(app.epc.buton));
+		assertTrue(app.epc.esteAfisatElementul(app.epc.categorie));
 	}
 		
 	}
