@@ -20,7 +20,10 @@ public class MenuPage {
     public By facebookLink = By.xpath("//a[@class='social_icons social_facebook']/span[1]");
     public By twitterLink= By.xpath("//a[@href='https://twitter.com/']/span[1]");
     public By instagramLink= By.xpath("//a[@href='https://www.instagram.com']/span[1]");
-     
+    public By blogLink= By.xpath("//li[@id='menu-item-76']/a[@class='sf-with-ul']");
+    public By classicsLink = By.xpath("//li[@id='menu-item-114']"
+			+ "/a[@href='https://keybooks.ro/category/classic/']");
+    
 	public void navigateTo(By locator) {
 		driver.findElement(locator).click();
 	}

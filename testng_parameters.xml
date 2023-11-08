@@ -2,9 +2,11 @@
 <suite name="Suite1" >
     <test name="123" >
     	<parameter name ="user" value = "TestUser"/>  
-	    <parameter name ="pass" value = "12345@67890"/>  
+	       <parameter name ="pass" value = "12345@67890"/>  
 
         <classes>
             <class name="tests.LoginTest" ></class>
         </classes>
-    </test>
+    </test> 
+    
+</suite>

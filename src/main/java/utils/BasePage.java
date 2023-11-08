@@ -2,7 +2,10 @@ package utils;
 
 import org.openqa.selenium.WebDriver;
 
+import pages.BlogBlogClassicsPage;
+import pages.BlogClassicsPage;
 import pages.ContactsPage;
+import pages.CookBooksPage;
 import pages.ElementePaginaCarte;
 import pages.EventsPage;
 import pages.GenericEventPage;
@@ -31,4 +34,11 @@ public class BasePage extends SeleniumWrappers{
 	public GenericEventPage genericEvent =  new GenericEventPage(driver);
 	public ElementePaginaCarte epc=  new ElementePaginaCarte(driver);
 	public ShopCarte shopCarte = new ShopCarte(driver);
+	public BlogClassicsPage bcp=new BlogClassicsPage(driver);
+	public BlogBlogClassicsPage bbcp=new BlogBlogClassicsPage(driver);
+	public CookBooksPage cbp = new CookBooksPage(driver);
+	
+	
+	
+	
 }

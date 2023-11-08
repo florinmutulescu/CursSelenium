@@ -11,5 +11,5 @@ public class ShopCarte extends SeleniumWrappers {
 		super(driver);
 	}
 	public By cookingWithLoveLink = By.xpath("//a[@class='hover_icon hover_icon_link' and @href='https://keybooks.ro/shop/cooking-with-love/']");
-
+	public By cookBooksLink = By.xpath("//a[text()='Cookbooks']");
 }
