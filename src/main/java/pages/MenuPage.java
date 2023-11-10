@@ -30,6 +30,7 @@ public class MenuPage {
     
     public By searchIcon = By.xpath("(//button[contains(@class, 'icon-search')])[1]");
 	public By searchInput = By.cssSelector("input[class='search_field']");
+	public By blogPostFormatsLink=By.xpath("//a[contains(text(),'Post Formats')][1]");
     
 	public void navigateTo(By locator) {
 		driver.findElement(locator).click();

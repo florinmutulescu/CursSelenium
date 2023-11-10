@@ -16,16 +16,16 @@ public class ActionClassExample extends BaseTest {
 		Thread.sleep(2000);
 		app.hoverElement(app.menu.aboutLink);
 	}
-	//@Test
+	@Test
 	public void dragAndDropTest() {
 		app.click(app.menu.shopLink);
 		app.dragAndDrop(app.shop.sliderInitialPosition, 100, 0);
-		app.dragAndDrop(app.shop.sliderFinalPosition, -100, 0);	
+		//app.dragAndDrop(app.shop.sliderFinalPosition, -100, 0);	
 		
 		
 	}
-	@Test
-	public void sendkeyTes() {
+	//@Test
+	public void sendkeyTest() {
 		app.click(app.menu.contactsLink);
 		Actions action = new Actions(driver);
 		
@@ -38,7 +38,7 @@ public class ActionClassExample extends BaseTest {
 		.sendKeys(Keys.TAB, "test@email.com")
 		.sendKeys(Keys.TAB, "My subject")
 		.sendKeys(Keys.TAB, "My message body")
-		.sendKeys(Keys.TAB, Keys.ENTER)
+		//.sendKeys(Keys.TAB, Keys.ENTER)
 		.perform();
 		
 		

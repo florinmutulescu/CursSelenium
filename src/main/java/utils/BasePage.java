@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import pages.BlogBlogClassicsPage;
 import pages.BlogClassicsPage;
+import pages.BlogPostFormatsPage;
 import pages.ContactsPage;
 import pages.CookBooksPage;
 import pages.ElementePaginaCarte;
@@ -37,7 +38,7 @@ public class BasePage extends SeleniumWrappers{
 	public BlogClassicsPage bcp=new BlogClassicsPage(driver);
 	public BlogBlogClassicsPage bbcp=new BlogBlogClassicsPage(driver);
 	public CookBooksPage cbp = new CookBooksPage(driver);
-	
+	public BlogPostFormatsPage bpfp = new BlogPostFormatsPage(driver);
 	
 	
 	
