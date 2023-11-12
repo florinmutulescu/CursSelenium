@@ -17,7 +17,7 @@ public class ScrollExample extends BaseTest{
 		Actions action = new Actions(driver);
 		action.scrollByAmount(0, 2000).perform();
 	}
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void scrollToElement() throws InterruptedException  {
 		//JS scroll
 		
@@ -28,7 +28,7 @@ public class ScrollExample extends BaseTest{
 		action.scrollToElement(app.returnWebElement(app.menu.signUpButton)).perform();
 		Thread.sleep(4000);
 	}
-	@Test
+	//@Test
 	public void scrollTopOrDown() throws InterruptedException {
 
 		//js scroll

@@ -38,7 +38,7 @@ public class ActionClassExample extends BaseTest {
 		.sendKeys(Keys.TAB, "test@email.com")
 		.sendKeys(Keys.TAB, "My subject")
 		.sendKeys(Keys.TAB, "My message body")
-		//.sendKeys(Keys.TAB, Keys.ENTER)
+		.sendKeys(Keys.TAB, Keys.ENTER)
 		.perform();
 		
 		
