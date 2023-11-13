@@ -16,7 +16,7 @@ public class RelativeLocators extends BaseTest {
 	 * near
 	 * 
 	 */
-	@Test
+	@Test(groups = "ProductFunctionality")
 	public void locatoriRelativi() {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 
