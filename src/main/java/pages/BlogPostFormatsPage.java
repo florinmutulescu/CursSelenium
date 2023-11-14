@@ -19,4 +19,6 @@ public class BlogPostFormatsPage extends SeleniumWrappers {
 	
 	public By sliderPlayInitialPosition = By.cssSelector("span[class="
 			+ "'mejs-time-total mejs-time-slider']");
+	
+	public By galleryFormat=By.xpath("//a[text()='Gallery Format']");
 }

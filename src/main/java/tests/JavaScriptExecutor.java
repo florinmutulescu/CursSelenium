@@ -19,8 +19,8 @@ public class JavaScriptExecutor extends BaseTest{
 		WebElement searchIcon = driver.findElement(app.menu.searchIcon);
 		WebElement searchInput = driver.findElement(app.menu.searchInput);
 
-		//alternativa pentru click()
-	/* 	//alternativa pentru click()
+	/*	//alternativa pentru click()
+	 	//alternativa pentru click()
 		jse.executeScript("arguments[0].click()", searchIcon);		
 		//alternativa pentru sendKeys()
 		jse.executeScript("arguments[0].value='cooking'", searchInput);
@@ -47,7 +47,7 @@ public class JavaScriptExecutor extends BaseTest{
 				+ "ClassName('post_title')[0].checkVisibility()").toString();
 		System.out.println(isDisplayed);
 		Boolean.valueOf(isDisplayed);//daca vreau sa transform stringul in boolean
-		
+	
 		//alternativa pentru getCurrentURL()
 		String currentUrl = jse.executeScript("return document.URL").toString();
 		System.out.println(currentUrl);

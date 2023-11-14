@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import utils.BaseTest;
 
 public class ScrollExample extends BaseTest{
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void scrollByPixel() {
 		//JS scroll
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
@@ -19,7 +19,7 @@ public class ScrollExample extends BaseTest{
 		Actions action = new Actions(driver);
 		action.scrollByAmount(0, 2000).perform();
 	}
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void scrollToElement() throws InterruptedException  {
 		//JS scroll
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
@@ -29,7 +29,7 @@ public class ScrollExample extends BaseTest{
 		
 		//Action class scroll
 		Actions action = new Actions(driver);
-		action.scrollToElement(app.returnWebElement(app.menu.signUpButton)).perform();
+		//action.scrollToElement(app.returnWebElement(app.menu.signUpButton)).perform();
 		Thread.sleep(4000);
 	}
 	//@Test
