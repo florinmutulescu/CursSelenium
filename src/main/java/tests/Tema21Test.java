@@ -42,16 +42,16 @@ public class Tema21Test extends BaseTest{
 			jse.executeScript("document.getElementsByClassName('comments_field comments_message')[0]"
 					+ ".childNodes[1].click()");
 			jse.executeScript("document.getElementsByClassName('comments_field comments_message')[0]"
-					+ ".childNodes[1].value='alin' ");
+					+ ".childNodes[1].value='stefan' ");
 			
 			jse.executeScript("document.getElementById('author').click()");
-			jse.executeScript("document.getElementById('author').value='dorin'");
+			jse.executeScript("document.getElementById('author').value='florin'");
 			
 			jse.executeScript("document.getElementById('email').click()");
 			jse.executeScript("document.getElementById('email').value='florinmutulescu@yahoo.com'");
 			
 			jse.executeScript("document.getElementById('url').click()");
-			jse.executeScript("document.getElementById('url').value='ionel'");
+			jse.executeScript("document.getElementById('url').value='dorin'");
 			
 			jse.executeScript("document.getElementById('send_comment').click()");
 			
