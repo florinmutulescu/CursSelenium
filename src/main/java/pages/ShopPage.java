@@ -15,6 +15,8 @@ public class ShopPage extends SeleniumWrappers {
 	public By sliderInitialPosition = By.cssSelector("span[style='left: 0%;']");
 	public By sliderFinalPosition = By.cssSelector("span[style='left: 100%;']");
 	//public By categorieProdus = By.xpath("//ul[@class='product-categories']");
+	public By romans =By.xpath("//a[@href='https://keybooks.ro/product-category/romans/']");
+	//public By romans1 =By.xpath("//ul/li[@class='cat-item cat-item-39']");
 	
 	public void filterByValue(String value) {
 		Select selectObj =  new Select(returnWebElement(orderDropDown));

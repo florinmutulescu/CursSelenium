@@ -26,7 +26,7 @@ public class BaseTest {
 	public void tearDown() throws InterruptedException  {
 		Thread.sleep(4000);// bad practice
 		//driver.close();//inchide tabul curent
-		//driver.quit();//inchide browserul indiferent cate taburi sunt deschise
+		driver.quit();//inchide browserul indiferent cate taburi sunt deschise
 	}
 
 }

@@ -14,6 +14,7 @@ import pages.LogarePagina;
 import pages.LoginPage;
 import pages.MeniuPagTema16;
 import pages.MenuPage;
+import pages.RomansPage;
 import pages.ShippingPage;
 import pages.ShopCarte;
 import pages.ShopPage;
@@ -39,7 +40,7 @@ public class BasePage extends SeleniumWrappers{
 	public BlogBlogClassicsPage bbcp=new BlogBlogClassicsPage(driver);
 	public CookBooksPage cbp = new CookBooksPage(driver);
 	public BlogPostFormatsPage bpfp = new BlogPostFormatsPage(driver);
-	
+	public RomansPage rp =  new RomansPage(driver);
 	
 	
 }
